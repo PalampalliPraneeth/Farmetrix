@@ -1,0 +1,21 @@
+{
+  "env": {
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "import/prefer-default-export": "off",
+    "comma-dangle": "off",
+    "react/jsx-filename-extension": "off",
+    "arrow-parens": "off",
+    "indent": ["error", 4],
+    "react/jsx-indent": 4,
+    "react/jsx-indent-props": 4,
+    "no-use-before-define": "off",
+    "react/forbid-prop-types": "off",
+    "camelcase": "off",
+    "no-nested-ternary": "off",
+    "max-len": "off"
+  }
+}
